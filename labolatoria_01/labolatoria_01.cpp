@@ -22,7 +22,6 @@ private:
 
 int main()
 {
-	FileSystem::saveToCsvFile();
-	FileSystem::readFromCsvFile();
+	
 }
 
