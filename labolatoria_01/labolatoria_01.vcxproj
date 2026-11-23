@@ -139,7 +139,12 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bank_tools.cpp" />
     <ClCompile Include="labolatoria_01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bank_repo.h" />
+    <ClInclude Include="bank_tools.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
